@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "As a software developer, I thrive on crafting innovative and efficient solutions to complex problems. My expertise lies in designing, developing, and deploying scalable applications that seamlessly integrate functionality with a user-friendly experience.",
   summary:
-    " In the past, [I pursued degree in computer Engineering [B.Tech]](/#education), and I'm currently a software developer [frontend development] at MNJ Tech. honestly, I want to give best of my knowledge to the world and make peoples life easier.",
+    " In the past, [I pursued degree in computer Engineering [B.Tech]](/#education), and I'm currently a software developer [frontend development] at FiadoLabs. honestly, I want to give best of my knowledge to the world and make peoples life easier.",
   avatarUrl: "/maulik.png",
   skills: [
     "Javascript",
@@ -62,7 +62,7 @@ export const DATA = {
 
   work: [
     {
-      company: "MNJ Tech",
+      company: "FiadoLabs",
       href: "https://atomic.finance",
       badges: [],
       location: "Remote",
