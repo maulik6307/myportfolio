@@ -63,7 +63,7 @@ export const DATA = {
   work: [
     {
       company: "FiadoLabs",
-      href: "https://atomic.finance",
+      href: "https://fiadolabs.com/en",
       badges: [],
       location: "Remote",
       title: "Frontend Develpment Engineer",
@@ -75,7 +75,7 @@ export const DATA = {
     },
     {
       company: "Pixer Digital",
-      href: "#",
+      href: "https://pixer.io/",
       badges: [],
       location: "Surat, Gujarat",
       title: "Webflow Developer",
@@ -90,13 +90,60 @@ export const DATA = {
     {
       school: "Gujarat Technological University",
       href: "https://www.gtu.ac.in/",
-      degree: "Bachelor of Technology in Computer Engineering",
+      degree: "Bachelor of Engineering in Computer Engineering",
       logoUrl: "/gtu.jpg",
       start: "2020",
       end: "2024",
     },
   ],
   projects: [
+    {
+      title: "Subverse AI",
+      href: "https://subverseai.com/",
+      dates: "November 2024 - Present",
+      active: true,
+      description:
+        "SubVerse AI agents have allowed us to handle a 50% increase in call volume without adding additional staff. We've also seen a 30% increase in customer satisfaction.Automate 50%+ of Incoming Calls and Improve Call Success Rates by increasing above 25%.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "ReactFlow",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Tailadmin"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://subverseai.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/subverse.png",
+      video: "",
+    },
+    {
+      title: "Motiba",
+      href: "https://motibagems.com/",
+      dates: "April 2024 - Present",
+      active: true,
+      description:
+        "Designed this site for Motiba Gems. it is basically a online diamond trading software.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://motibagems.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/mot.png",
+      video: "",
+    },
     {
       title: "Blog Website",
       href: "https://react-blog-app-phi-two.vercel.app/",
@@ -121,51 +168,7 @@ export const DATA = {
       video:
         "",
     },
-    {
-      title: "Motiba",
-      href: "https://motibagems.com/",
-      dates: "April 2024 - Present",
-      active: true,
-      description:
-        "Designed this site for Motiba Gems. it is basically a online diamond trading software in which company can add diamonds for selling.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://motibagems.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/mot.png",
-      video: "",
-    },
-    {
-      title: "Subverse AI",
-      href: "https://subverseai.com/",
-      dates: "November 2024 - Present",
-      active: true,
-      description:
-        "Developed a Website which used in various ways like for voice agent, campaigns designing, workflow designing etc.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "ReactFlow",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://subverseai.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/subverse.png",
-      video: "",
-    },
+
+
   ],
 } as const;
