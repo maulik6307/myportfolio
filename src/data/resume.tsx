@@ -98,6 +98,33 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Scrapflow",
+      href: "https://github.com/maulik6307/scrape-flow",
+      dates: "March 2025",
+      active: true,
+      description:
+        "Scrapeflow is a web app that allows users to scrape data from any website. It is built using Next.js, React, and Tailwind CSS.it is full stack Saas AI app which is provide stripe payment gateway and credit system.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "ReactFlow",
+        "TailwindCSS",
+        "Shadcn UI",
+        "ReactQuery",
+        "Clerk",
+        "Stripe",
+      ],
+      links: [
+        {
+          type: "Webapp",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/scrapflow.avif",
+      video: "",
+    },
+    {
       title: "Subverse AI",
       href: "https://subverseai.com/",
       dates: "November 2024 - Present",
