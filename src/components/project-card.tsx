@@ -16,7 +16,7 @@ interface Props {
   className?: string;
 }
 
-export function ProjectCard({ title, description, image, technologies, links, className }: Props) {
+export function ProjectCard({ title, description, image, technologies, links, className }: any) {
   return (
     <Card className={`project-card ${className}`}>
       <CardContent className="space-y-6">
@@ -36,7 +36,7 @@ export function ProjectCard({ title, description, image, technologies, links, cl
             </CardDescription>
           </div>
           <div className="flex flex-wrap gap-2">
-            {technologies.map((tech) => (
+            {technologies.map((tech: any) => (
               <Badge
                 key={tech}
                 variant="secondary"
