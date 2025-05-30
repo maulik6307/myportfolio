@@ -45,7 +45,7 @@ export function Navbar() {
           href="/"
           className="text-xl font-bold tracking-tight gradient-text"
         >
-          Maulik Patel
+          Maulik Bhavnagariya
         </Link>
 
         {/* Desktop Navigation */}

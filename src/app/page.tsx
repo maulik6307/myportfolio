@@ -13,12 +13,12 @@ export default function Page() {
       <section className="w-full min-h-screen flex flex-col items-center justify-center section-spacing">
         <div className="flex flex-col items-center text-center space-y-8">
           <Avatar className="size-24 sm:size-32 md:size-40 border-4 border-primary/20 animate-float">
-            <AvatarImage src="/avatar.jpg" alt="Maulik's avatar" />
-            <AvatarFallback>MP</AvatarFallback>
+            <AvatarImage src="/maulik.png" alt="Maulik's avatar" />
+            <AvatarFallback>MB</AvatarFallback>
           </Avatar>
           <div className="space-y-4">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold gradient-text">
-              Maulik Patel
+            <h1 className="text-4xl sm:text-5xl md:text-5xl font-bold gradient-text">
+              Maulik Bhavnagariya
             </h1>
             <p className="text-xl sm:text-2xl text-muted-foreground">
               Full Stack Developer
@@ -111,10 +111,10 @@ export default function Page() {
             </p>
             <div className="flex gap-4">
               <Button asChild className="hover-button">
-                <Link href="mailto:your.email@example.com">Email</Link>
+                <Link href="mailto:bhavnagariyamaulik@gmail.com">Email</Link>
               </Button>
               <Button variant="outline" asChild className="hover-button">
-                <Link href="https://linkedin.com/in/your-profile" target="_blank">
+                <Link href="https://www.linkedin.com/in/maulik-bhavnagariya-05468b217/" target="_blank">
                   LinkedIn
                 </Link>
               </Button>

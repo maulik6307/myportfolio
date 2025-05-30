@@ -10,13 +10,17 @@ export const DATA = {
   description:
     "As a software developer, I thrive on crafting innovative and efficient solutions to complex problems. My expertise lies in designing, developing, and deploying scalable applications that seamlessly integrate functionality with a user-friendly experience.",
   summary:
-    " In the past, [I pursued degree in computer Engineering [B.Tech]](/#education), and I'm currently a software developer [frontend development] at FiadoLabs. honestly, I want to give best of my knowledge to the world and make peoples life easier.",
+    " In the past, [I pursued degree in computer Engineering [B.E.]](/#education), and I'm currently a software developer [frontend development] at FiadoLabs. honestly, I want to give best of my knowledge to the world and make peoples life easier.",
   avatarUrl: "/maulik.png",
   skills: [
     "Javascript",
-    "Tailwindcss",
-    "React",
+    "Typescript",
+    "React.js",
     "Next.js",
+    "Node.js",
+    "Express.js",
+    "Tailwind CSS",
+    "Shadcn UI",
     "Typescript",
     "Node.js",
     "Python",
@@ -98,6 +102,33 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Docs-Full Stack Collaboration App",
+      href: "https://github.com/maulik6307/docs",
+      dates: "Apr 2025",
+      active: true,
+      description:
+        "I've developed a modern document collaboration platform similar to Google Docs, combining real-time collaboration with a rich text editing experience. This project demonstrates my ability to build complex web applications that handle real-time data synchronization while maintaining a smooth user experience.",
+      technologies: [
+        "Next.js 15",
+        "React 19",
+        "TypeScript",
+        "TailwindCSS",
+        "Convex",
+        "Liveblocks",
+        "Zustand",
+        "TipTap editor",
+      ],
+      links: [
+        {
+          type: "Webapp",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/Google-Docs-logo.avif",
+      video: "",
+    },
+    {
       title: "Scrapflow",
       href: "https://github.com/maulik6307/scrape-flow",
       dates: "March 2025",
@@ -121,7 +152,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/scrapflow.avif",
+      image: "/scrapFlow2.jpg",
       video: "",
     },
     {
@@ -146,7 +177,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/subverse.png",
+      image: "/subverseai.png",
       video: "",
     },
     {
@@ -173,7 +204,7 @@ export const DATA = {
     },
     {
       title: "Blog Website",
-      href: "https://react-blog-app-phi-two.vercel.app/",
+      href: "https://github.com/maulik6307/React-Blog-App",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:

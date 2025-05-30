@@ -14,19 +14,22 @@ interface Props {
     demo?: string;
   };
   className?: string;
+  href?: string;
 }
 
-export function ProjectCard({ title, description, image, technologies, links, className }: any) {
+export function ProjectCard({ title, description, href, image, technologies, links, className }: any) {
   return (
-    <Card className={`project-card ${className}`}>
+    <Card className={`project-card ${className} !p-4`}>
       <CardContent className="space-y-6">
-        <div className="relative aspect-video overflow-hidden rounded-lg pro-shadow">
-          <Image
-            src={image}
-            alt={title}
-            fill
-            className="object-cover transition-transform duration-300 hover:scale-105"
-          />
+        <div className="relative aspect-video overflow-hidden rounded-lg shadow-lg">
+          <Link href={href} target="_blank" rel="noopener noreferrer">
+            <Image
+              src={image}
+              alt={title}
+              fill
+              className="object-cover transition-transform duration-300 hover:scale-105 cursor-pointer"
+            />
+          </Link>
         </div>
         <div className="space-y-4">
           <div>
